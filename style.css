@@ -10,7 +10,7 @@ h1{
     text-decoration: underline;
 }
 body{
-    background-color: lightblue;
+    background-color: lightgreen;
 
 }
 h2{
@@ -20,7 +20,7 @@ h2{
 
 }
 a{
-    color:black;
+    color:white;
     font-weight: bold;
     align: center;
     text-decoration: none;
@@ -30,4 +30,34 @@ a:hover{
 }
 a:visited{
     text-decoration: underline;
+}
+#navigation{
+    display: flex;
+    color: white;
+
+}
+#submit-button{
+    background-color: white;
+}
+#list{
+    color: black;
+}
+#services{
+    color: white;
+}
+#about{
+    background-image: url('WhatsApp Image 2026-05-29 at 11.54.50.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+#h1_about{
+    color: white;
+}
+#h2_about{
+    color:white;
+}
+#p_about{
+    color:white;
 }

@@ -1,0 +1,204 @@
+🚗 Turbo Fix Automotive Website
+
+Project Overview
+
+Turbo Fix Automotive is a professional automotive repair and maintenance website developed as part of the WEDE5121 Web Development module. The purpose of the website is to provide customers with information about the company, its services, and ways to contact the business or submit service enquiries.
+
+The website has been designed to be user-friendly, visually appealing, and accessible across different devices. It incorporates HTML, CSS, JavaScript, and Search Engine Optimisation (SEO) techniques to improve functionality and user experience.
+
+⸻
+
+Business Description
+
+Turbo Fix Automotive is a vehicle repair and maintenance company dedicated to providing reliable and affordable automotive services. The business specialises in vehicle diagnostics, engine repairs, brake repairs, oil changes, battery replacements, and routine vehicle servicing.
+
+The company focuses on customer satisfaction, quality workmanship, and efficient service delivery.
+
+⸻
+
+Website Goals
+
+The goals of the website are:
+
+* Promote Turbo Fix Automotive and its services.
+* Provide customers with information about the business.
+* Allow customers to submit service enquiries online.
+* Allow customers to contact the business directly.
+* Improve the company’s online visibility through SEO practices.
+* Create a professional online presence for the business.
+
+⸻
+
+Website Pages
+
+Home Page (index.html)
+
+The Home page introduces visitors to Turbo Fix Automotive and provides an overview of the company’s services and value proposition.
+
+Services Page (services.html)
+
+The Services page provides detailed information about the automotive services offered by the company.
+
+About Page (about.html)
+
+The About page explains the history, mission, vision, and values of Turbo Fix Automotive.
+
+Enquiry Page (enquiry.html)
+
+The Enquiry page allows customers to request information about services and obtain assistance regarding automotive repairs and maintenance.
+
+Contact Page (contact.html)
+
+The Contact page allows users to send general messages and contact the company directly.
+
+⸻
+
+Technologies Used
+
+The following technologies were used in the development of this website:
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+* Search Engine Optimisation (SEO)
+
+⸻
+
+Features Implemented
+
+Design Features
+
+* Responsive page layouts.
+* Consistent navigation menu across all pages.
+* Professional automotive-themed branding.
+* Multiple images on each page.
+* Company logo displayed throughout the website.
+
+Functionality Features
+
+* Enquiry form.
+* Contact form.
+* JavaScript form validation.
+* Interactive website elements.
+* Internal page linking.
+* Image gallery functionality.
+
+SEO Features
+
+* Meta titles and descriptions.
+* Keyword optimisation.
+* Image alt text.
+* Sitemap.xml.
+* Robots.txt.
+* Internal linking structure.
+
+⸻
+
+Folder Structure
+
+TurboFix-Automotive/
+
+├── index.html
+
+├── services.html
+
+├── about.html
+
+├── enquiry.html
+
+├── contact.html
+
+├── sitemap.xml
+
+├── robots.txt
+
+├── README.md
+
+├── CHANGELOG.md
+
+└── images/
+
+    ├── logo.png
+
+    ├── garage-banner.jpg
+
+    ├── mechanic.jpg
+
+    ├── workshop.jpg
+
+    ├── engine-repair.jpg
+
+    └── oil-service.jpg
+
+⸻
+
+Testing
+
+The website was tested to ensure:
+
+* All navigation links function correctly.
+* All images display properly.
+* Forms validate user input correctly.
+* Pages display correctly on desktop and mobile devices.
+* Interactive features function as intended.
+* SEO elements are correctly implemented.
+
+⸻
+
+Deployment
+
+The website can be deployed using:
+
+* GitHub Pages
+* Netlify
+
+The deployed website link should be inserted here once publishing has been completed.
+
+Website URL:
+[Insert Live Website URL Here]
+
+GitHub Repository URL:
+[Insert GitHub Repository URL Here]
+
+⸻
+
+Changelog Summary
+
+Major updates completed during Part 3 include:
+
+* Added JavaScript functionality.
+* Improved website navigation.
+* Added additional images.
+* Implemented SEO improvements.
+* Added sitemap.xml and robots.txt.
+* Improved enquiry and contact forms.
+* Updated README documentation.
+* Prepared website for deployment.
+
+⸻
+
+References
+
+MDN Web Docs. Available at: https://developer.mozilla.org
+
+W3Schools. Available at: https://www.w3schools.com
+
+GitHub Documentation. Available at: https://docs.github.com
+
+Google Search Central. Available at: https://developers.google.com/search
+
+⸻
+
+Author
+
+Student Name: Theo Mpata
+
+Student Number: ST10442874
+
+Module: WEDE5121
+
+Project: Turbo Fix Automotive Website
+
+Year: 2026

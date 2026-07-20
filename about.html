@@ -1,31 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About - TurboFix Automotive</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | TurboFix Automotive Pretoria</title>
+  <meta name="description" content="Learn about TurboFix Automotive's mission, vision and the team behind our Pretoria vehicle repair workshop.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://turbofix-automotive.example/about.html">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="about">
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-</nav>
+<a class="skip-link" href="#main">Skip to main content</a>
 
-<h1>About TurboFix Automotive</h1>
+<header class="site-header">
+  <div class="nav-wrap container">
+    <a href="index.html" class="brand">
+      <img src="img/turbofix-logo.jpeg" alt="TurboFix Automotive logo">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="navigation" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="enquiry.html">Get a Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-<p>TurboFix Automotive is a trusted vehicle repair company based in Pretoria.</p>
+<main id="main">
 
-<h2>Our Mission</h2>
-<p>To provide reliable and affordable automotive services.</p>
+  <section class="about-hero">
+    <div class="container">
+      <h1>About TurboFix Automotive</h1>
+      <p>TurboFix Automotive is a trusted vehicle repair company based in Pretoria, built on honest pricing and skilled hands.</p>
+    </div>
+  </section>
 
-<h2>Why Choose Us?</h2>
-<ul>
-    <li>Experienced mechanics</li>
-    <li>Affordable pricing</li>
-    <li>Fast service</li>
-</ul>
-<img src="img/WhatsApp Image 2026-05-29 at 11.54.50.jpeg">
+  <section class="section">
+    <div class="container">
+      <div class="cards-grid reveal">
+        <div class="card" style="text-align:left;">
+          <h2>Our Mission</h2>
+          <p>To provide reliable and affordable automotive services to every car owner who walks through our door, backed by skilled technicians and modern diagnostic equipment.</p>
+        </div>
+        <div class="card" style="text-align:left;">
+          <h2>Our Vision</h2>
+          <p>To become a leading automotive service provider in South Africa, recognised for innovation, reliability and consistent customer satisfaction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color:#fff;">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Why Choose Us?</h2>
+        <p>A few reasons our customers keep coming back.</p>
+      </div>
+      <ul id="list" class="cards-grid">
+        <li class="card reveal">Experienced mechanics</li>
+        <li class="card reveal">Affordable pricing</li>
+        <li class="card reveal">Fast service</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Meet the Team</h2>
+        <p>The people who keep TurboFix running smoothly.</p>
+      </div>
+      <div class="team-grid reveal">
+        <div class="team-card">
+          <div class="avatar">TM</div>
+          <h3>Theo Mpata</h3>
+          <p>Founder &amp; Lead Technician</p>
+        </div>
+        <div class="team-card">
+          <div class="avatar">NK</div>
+          <h3>Naledi Khumalo</h3>
+          <p>Diagnostics Specialist</p>
+        </div>
+        <div class="team-card">
+          <div class="avatar">SM</div>
+          <h3>Sipho Mahlangu</h3>
+          <p>Workshop Manager</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section text-center reveal" style="background-color:#fff;">
+    <div class="container">
+      <h2>Want to know what we charge?</h2>
+      <p style="color:var(--text-muted); margin-bottom:24px;">Browse our services and pricing, or send us a quick enquiry.</p>
+      <a href="services.html" class="btn">See Our Services</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>TurboFix Automotive</h3>
+        <p>Fast, reliable and affordable vehicle repairs and maintenance in Pretoria.</p>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="TurboFix on Facebook">FB</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="TurboFix on Instagram">IG</a>
+          <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="TurboFix on X">X</a>
+        </div>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="enquiry.html">Get a Quote</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <address>
+          123 Workshop Street, Pretoria, South Africa<br>
+          <a href="tel:+27723456789">+27 72 345 6789</a><br>
+          <a href="mailto:info@turbofix.co.za">info@turbofix.co.za</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> TurboFix Automotive. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+<script src="js/script.js" defer></script>
 </body>
 </html>
