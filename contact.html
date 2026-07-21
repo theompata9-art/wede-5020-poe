@@ -1,3 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - TurboFix Automotive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="Enquiry.html">Enquiry</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Contact Us</h1>
+
+<p><strong>Phone:</strong> +27 72 345 6789</p>
+<p><strong>Email:</strong> info@turbofix.co.za</p>
+<p><strong>Location:</strong> Pretoria, South Africa</p>
+
+<h2>Enquiry Form</h2>
+
+<form>
+    <label>Name:</label><br>
+    <input type="text" required><br><br>
+    
+    <label>Surname:</label><br>
+    <input type="text" required><br><br>
+    
+    <label>Contact Number:</label><br>
+    <input type="number" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" required><br><br>
+
+
+    <label>Message:</label><br>
+    <textarea required></textarea><br><br>
+    <button id="submit-button">Submit</button>
+</form>    
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,15 +64,25 @@
 <p><strong>Location:</strong> Pretoria, South Africa</p>
 
 <h2>Enquiry Form</h2>
+<form id="contactForm">
 
-<form>
     <label>Name:</label><br>
-    <input type="text" required><br><br>
-
+    <input type="text" id="name" required><br><br>
+    
     <label>Email:</label><br>
-    <input type="email" required><br><br>
+    <input type="email" id="email" required><br><br>
 
     <label>Message:</label><br>
-    <textarea required></textarea><br><br>
-    <button id="submit-button">Submit</button>
-</form>    
+    <textarea id="message" required></textarea><br><br>
+
+    <button type="submit">Send via WhatsApp</button>
+
+</form>
+
+
+<p id="response"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

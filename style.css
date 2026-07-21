@@ -61,3 +61,459 @@ a:visited{
 #p_about{
     color:white;
 }
+
+ {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #111;
+            color: rgb(19, 12, 12);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(5, 9, 228);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        button {
+            background-color: #e60000;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #b30000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #111;
+            color: rgb(15, 13, 13);
+            margin-top: 30px;
+        }
+
+        body{
+    background-image: url("WhatsApp Image 2026-05-29 at 12.02.13.jpeg");
+    background-size: cover;        /* Makes the image cover the whole page */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents repeating */
+    background-attachment: fixed;  /* Keeps the image fixed while scrolling */
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: rgb(15, 1, 1);
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b1b1b;
+    padding: 10px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: rgb(20, 21, 77);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: limegreen;
+}
+
+
+/* =====================================
+   enquiry.html
+   Customer Enquiry Form Styling
+===================================== */
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+
+button {
+    background-color: #e60000;
+    color: rgb(19, 16, 16);
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #b30000;
+}
+
+
+
+
+
+
+
+
+
+/* General Page */
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#ffffff;
+    padding:15px 30px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Logo Section */
+.logo-container{
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    width:180px;
+    height:auto;
+    margin-right:20px;
+}
+
+.company-name h1{
+    margin:0;
+    color:#008000;
+    font-size:36px;
+}
+
+.company-name p{
+    margin-top:5px;
+    color:#444;
+    font-size:18px;
+    font-style:italic;
+}
+
+/* Navigation Bar */
+nav{
+    background:#111;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00b300;
+}
+
+/* Home Section */
+.hero{
+    text-align:center;
+    padding:60px;
+}
+
+.hero h2{
+    color:#008000;
+    font-size:40px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#333;
+}
+
+/* Background image for the whole website */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url("background.jpg"); /* Change to your image name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Make the header slightly transparent */
+header{
+    background: rgba(36, 24, 24, 0.85);
+    padding: 20px;
+}
+
+/* Navigation */
+nav{
+    background: rgba(0,0,0,0.85);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: limegreen;
+}
+
+/* Welcome section */
+.hero{
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background: rgba(0,0,0,0.45);
+}
+
+
+
+/* =====================================
+   index.html - Homepage Styling
+   Controls the main landing page
+===================================== */
+
+.hero {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background: rgba(0,0,0,0.45);
+}
+
+
+.hero h2 {
+    color: #008000;
+    font-size: 40px;
+}
+
+
+.hero p {
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+/* =====================================
+   index.html + All Pages
+   Navigation Bar Styling
+===================================== */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: limegreen;
+}
+
+
+
+/* =====================================
+   index.html
+   Company Logo and Header Section
+===================================== */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 180px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.company-name h1 {
+    margin: 0;
+    color: #008000;
+}
+
+
+
+/* =====================================
+   about.html
+   About Page Background Section
+===================================== */
+
+#about {
+    background-image: url('WhatsApp Image 2026-05-29 at 11.54.50.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+#h1_about {
+    color: white;
+}
+
+
+#h2_about {
+    color: white;
+}
+
+
+#p_about {
+    color: white;
+}
+
+
+
+/* =====================================
+   services.html
+   Services Page Styling
+===================================== */
+
+#services {
+    color: white;
+}
+
+
+#list {
+    color: black;
+}
+
+
+
+/* =====================================
+   contact.html
+   Customer Contact Form Styling
+===================================== */
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+
+button {
+    background-color: #e60000;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #b30000;
+}
+
+
+
+/* =====================================
+   All HTML Pages
+   General Body Styling
+===================================== */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* =====================================
+   All HTML Pages
+   Footer Section
+===================================== */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    color: white;
+    margin-top: 30px;
+}
